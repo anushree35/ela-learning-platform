@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELA Learning Platform - Enhancing Children's Language Arts Skills</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">📚 ELA Learning Platform</h1>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Enhancing Children's ELA Skills</h1>
+            <p class="hero-subtitle">Interactive learning platform for ages 2-14, featuring engaging activities and classic literature</p>
+            <div class="hero-badges">
+                <span class="badge">🏆 Girl Scout Silver Award 2022</span>
+                <span class="badge">📖 Public Domain Books</span>
+                <span class="badge">🎯 Ages 2-14</span>
+            </div>
+            <a href="#activities" class="cta-button">Start Learning</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About the Platform</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Engaging Design</h3>
+                        <p>Beautiful, child-friendly interface designed to captivate young learners and make education enjoyable.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Quality Content</h3>
+                        <p>Carefully selected public domain books and educational materials appropriate for different age groups.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Targeted Learning</h3>
+                        <p>Activities specifically designed to support reading and writing development for ages 2-14.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Interactive Activities</h2>
+                <div class="activities-grid">
+                    <div class="activity-card" data-age="2-5">
+                        <div class="activity-header">
+                            <h3>Early Learners (Ages 2-5)</h3>
+                            <span class="age-badge">2-5 years</span>
+                        </div>
+                        <div class="activity-content">
+                            <ul>
+                                <li>🔤 Letter Recognition Games</li>
+                                <li>🎵 Phonics Songs & Rhymes</li>
+                                <li>📖 Picture Story Time</li>
+                                <li>✏️ Pre-Writing Activities</li>
+                            </ul>
+                            <button class="activity-btn" onclick="openActivity('ages-2-5')">Explore Activities</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" data-age="6-9">
+                        <div class="activity-header">
+                            <h3>Elementary (Ages 6-9)</h3>
+                            <span class="age-badge">6-9 years</span>
+                        </div>
+                        <div class="activity-content">
+                            <ul>
+                                <li>📝 Reading Comprehension</li>
+                                <li>🔍 Vocabulary Building</li>
+                                <li>✍️ Creative Writing Prompts</li>
+                                <li>🎭 Story Character Analysis</li>
+                            </ul>
+                            <button class="activity-btn" onclick="openActivity('ages-6-9')">Explore Activities</button>
+                        </div>
+                    </div>
+
+                    <div class="activity-card" data-age="10-14">
+                        <div class="activity-header">
+                            <h3>Middle School (Ages 10-14)</h3>
+                            <span class="age-badge">10-14 years</span>
+                        </div>
+                        <div class="activity-content">
+                            <ul>
+                                <li>📚 Literary Analysis</li>
+                                <li>🖋️ Essay Writing Skills</li>
+                                <li>🎨 Poetry Appreciation</li>
+                                <li>🗣️ Discussion Forums</li>
+                            </ul>
+                            <button class="activity-btn" onclick="openActivity('ages-10-14')">Explore Activities</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="books" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Books</h2>
+                <p class="section-subtitle">Carefully curated public domain classics that inspire and educate</p>
+                <div class="books-grid">
+                    <div class="book-card">
+                        <div class="book-cover">📖</div>
+                        <h4>Classic Fairy Tales</h4>
+                        <p>Timeless stories that spark imagination</p>
+                        <span class="book-age">Ages 2-8</span>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-cover">🦋</div>
+                        <h4>Nature Stories</h4>
+                        <p>Educational tales about the natural world</p>
+                        <span class="book-age">Ages 6-12</span>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-cover">🏰</div>
+                        <h4>Adventure Classics</h4>
+                        <p>Exciting journeys and heroic tales</p>
+                        <span class="book-age">Ages 8-14</span>
+                    </div>
+                    <div class="book-card">
+                        <div class="book-cover">🎭</div>
+                        <h4>Poetry Collection</h4>
+                        <p>Beautiful verses for young minds</p>
+                        <span class="book-age">Ages 5-14</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Educational Impact</h2>
+                <div class="impact-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">2022</div>
+                        <div class="stat-label">Girl Scout Silver Award</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">2-14</div>
+                        <div class="stat-label">Age Range Covered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Public Domain Content</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Learning Possibilities</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ELA Learning Platform</h4>
+                    <p>Empowering young minds through engaging English Language Arts education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Recognition</h4>
+                    <p>🏆 Girl Scout Silver Award Project (2022)</p>
+                    <p>Demonstrating leadership in education and community service.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologies</h4>
+                    <p>Built with HTML, CSS, and JavaScript</p>
+                    <p>Featuring responsive design and accessibility</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2022 ELA Learning Platform. Educational content from public domain sources.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/activities.js"></script>
+</body>
+</html>
