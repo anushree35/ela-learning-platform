@@ -2,11 +2,11 @@
 
 A comprehensive English Language Arts (ELA) learning platform designed to enhance children's reading and writing skills for ages 2-14. This project was developed as part of the Girl Scout Silver Award in 2022.
 
-## 🎯 Project Overview
+##  Project Overview
 
 The ELA Learning Platform combines engaging educational content with interactive activities to support children's language development. The platform features carefully selected public domain books and age-appropriate activities designed to make learning fun and effective.
 
-## ✨ Features
+##  Features
 
 - **Age-Appropriate Content**: Educational materials designed specifically for children ages 2-14
 - **Interactive Activities**: Engaging exercises to support reading and writing development
@@ -14,11 +14,11 @@ The ELA Learning Platform combines engaging educational content with interactive
 - **Modern Web Design**: Clean, accessible interface built with HTML/CSS
 - **Educational Focus**: Content aligned with ELA learning objectives
 
-## 🏆 Recognition
+##  Recognition
 
 This project was developed as part of the **Girl Scout Silver Award** (2022), demonstrating commitment to community service and educational impact.
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone this repository:
    ```bash
@@ -47,7 +47,7 @@ ela-learning-platform/
     └── images/            # Educational images and graphics
 ```
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 The platform emphasizes:
 - **Accessibility**: Easy navigation for young learners
@@ -55,7 +55,7 @@ The platform emphasizes:
 - **Educational Value**: Content that supports genuine learning outcomes
 - **Age Appropriateness**: Tailored experiences for different developmental stages
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -63,7 +63,7 @@ The platform emphasizes:
 - Responsive Web Design
 - Educational Content Curation
 
-## 📚 Educational Impact
+##  Educational Impact
 
 This platform supports key ELA skills including:
 - Reading comprehension
@@ -72,15 +72,15 @@ This platform supports key ELA skills including:
 - Critical thinking
 - Literary appreciation
 
-## 🤝 Contributing
+##  Contributing
 
 This project welcomes contributions that enhance the educational experience. Please ensure all content remains appropriate for the target age groups and aligns with educational best practices.
 
-## 📄 License
+##  License
 
 This project uses public domain books and educational content. The platform code is available under the MIT License.
 
-## 🌟 About the Developer
+##  About the Developer
 
 Created as part of the Girl Scout Silver Award project, demonstrating leadership in education and community service. The platform represents a commitment to making quality educational resources accessible to young learners.
 
